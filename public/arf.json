@@ -34,6 +34,11 @@
                "name":"Rain Viewer",
                "type":"url",
                "url":"https://www.rainviewer.com/weather-radar-map-live.html"
+            },
+            {
+               "name":"Wildfires",
+               "type":"url",
+               "url":"https://services.zki.dlr.de/fire/#/map?bbox=-120.864,-85.051,219.485,85.051&timerange=2023-12-14T00:00:00.000Z/2023-12-21T00:00:00.000Z&area_ha=0,1000000&avg_dndvi=-2,2&confidence=0,100&layers=BURNTAREA_S3_EFR_P1D,BURNTAREA_MODIS_P1D&overlays=&baselayer=eoc_litemap_tile"
             }
          ],
          "name":"Weather",
@@ -55,6 +60,11 @@
          "url":"https://maps.here.com/"
       },
       {
+         "name":"Qwant Maps (data by MapTiler)",
+         "type":"url",
+         "url":"https://www.qwant.com/maps/"
+      },
+      {
          "name":"Dual Maps",
          "type":"url",
          "url":"http://data.mashedworld.com/dualmaps/map.htm"
@@ -70,19 +80,14 @@
          "url":"http://www.openstreetmap.org/#map=5/40.614/-100.679"
       },
       {
-         "name":"Yandex.Maps",
-         "type":"url",
-         "url":"https://yandex.com/maps/"
-      },
-      {
          "name":"Google Earth",
          "type":"url",
          "url":"https://www.google.com/earth/"
       },
       {
-         "name":"OpenStreetMap",
+         "name":"Copernicus Browser",
          "type":"url",
-         "url":"http://www.openstreetmap.org/#map=5/51.500/-0.100"
+         "url":"https://dataspace.copernicus.eu/browser/"
       },
       {
          "name":"OpenStreetCam",
@@ -93,11 +98,6 @@
          "name":"Hivemapper",
          "type":"url",
          "url":"https://hivemapper.com/"
-      },
-      {
-         "name":"Copernicus Browser",
-         "type":"url",
-         "url":"https://dataspace.copernicus.eu/browser/"
       },
       {
          "name":"BaseMap.de",
@@ -113,11 +113,6 @@
          "name":"OpenRailwayMap",
          "type":"url",
          "url":"http://www.openrailwaymap.org/"
-      },
-      {
-         "name":"OpenStreetMap Routing Service",
-         "type":"url",
-         "url":"http://www.yournavigation.org/"
       },
       {
          "name":"Hiking & Biking Map",
@@ -141,6 +136,11 @@
          "url":"http://chat.openai.com/"
       },
       {
+         "name":"Perplexity",
+         "type":"url",
+         "url":"http://perplexity.ai/"
+      },
+      {
          "name":"Chatgot.io",
          "type":"url",
          "url":"https://chatgot.io/"
@@ -161,7 +161,49 @@
          "url":"nat.dev"
       }
    ],
-   "name":"Chat",
+   "name":"AI Chats",
+   "type":"folder"
+},
+{
+   "children":[
+      {
+         "children":[
+            {
+               "name":"Bing Visual Search",
+               "type":"url",
+               "url":"https://www.bing.com/visualsearch"
+            },
+            {
+               "name":"Tiny Eye",
+               "type":"url",
+               "url":"https://tineye.com"
+            },
+            {
+               "name":"facecheck.id",
+               "type":"url",
+               "url":"https://facecheck.id"
+            }
+          ],
+          {
+             "name":"Google",
+             "type":"url",
+             "url":"https://www.google.com/advanced_search"
+          },
+          {
+             "name":"Carrot2",
+             "type":"url",
+             "url":"https://search.carrot2.org/#/search/web"
+          },
+          {
+             "name":"facecheck.id",
+             "type":"url",
+             "url":"https://facecheck.id"
+          },
+         "name":"Image Search",
+         "type":"folder"
+      }
+   ],
+   "name":"Search",
    "type":"folder"
 }
 ],
