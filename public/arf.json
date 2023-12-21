@@ -4112,29 +4112,14 @@
       "url": "http://www.instantstreetview.com/"
     },
     {
-      "name": "Wikimapia",
-      "type": "url",
-      "url": "http://wikimapia.org/#lang=en&lat=40.078071&lon=-100.458984&z=5&m=b"
-    },
-    {
       "name": "OpenStreetMap",
       "type": "url",
       "url": "http://www.openstreetmap.org/#map=5/40.614/-100.679"
     },
     {
-      "name": "Flash Earth",
+      "name": "Zoom.Earth",
       "type": "url",
-      "url": "http://www.flashearth.com/"
-    },
-    {
-      "name": "Historic Aerials",
-      "type": "url",
-      "url": "http://www.historicaerials.com/?javascript=&"
-    },
-    {
-      "name": "Google Maps Update Alerts",
-      "type": "url",
-      "url": "https://followyourworld.appspot.com/"
+      "url": "https://zoom.earth"
     },
     {
       "name": "Google Earth Overlays",
@@ -4147,11 +4132,6 @@
       "url": "https://yandex.com/maps/"
     },
     {
-      "name": "TerraServer",
-      "type": "url",
-      "url": "https://www.terraserver.com/view"
-    },
-    {
       "name": "Google Earth",
       "type": "url",
       "url": "https://www.google.com/earth/"
@@ -4160,21 +4140,6 @@
       "name": "Baidu Maps",
       "type": "url",
       "url": "http://map.baidu.com/"
-    },
-    {
-      "name": "Corona",
-      "type": "url",
-      "url": "http://corona.cast.uark.edu/"
-    },
-    {
-      "name": "Daum (Korean)",
-      "type": "url",
-      "url": "http://map.daum.net/"
-    },
-    {
-      "name": "Naver (Korean)",
-      "type": "url",
-      "url": "http://map.naver.com/"
     },
     {
       "name": "OpenStreetMap",
@@ -4192,39 +4157,24 @@
       "url": "http://openstreetcam.org/"
     },
     {
-      "name": "Dronetheworld",
-      "type": "url",
-      "url": "http://www.dronetheworld.com/"
-    },
-    {
-      "name": "Travel by Drone",
-      "type": "url",
-      "url": "http://travelbydrone.com/"
-    },
-    {
       "name": "Hivemapper",
       "type": "url",
       "url": "https://hivemapper.com/"
     },
     {
-      "name": "LandsatLook Viewer",
+      "name": "Copernicus Browser",
       "type": "url",
-      "url": "https://landsatlook.usgs.gov/"
+      "url": "https://dataspace.copernicus.eu/browser/"
     },
     {
-      "name": "Sentinel2Look Viewer",
+      "name": "BaseMap.de",
       "type": "url",
-      "url": "https://landsatlook.usgs.gov/sentinel2/"
+      "url": "https://basemap.de/viewer/"
     },
     {
-      "name": "NEXRAD Data Inventory Search",
+      "name": "geo.osnabrueck.de",
       "type": "url",
-      "url": "https://www.ncdc.noaa.gov/nexradinv/"
-    },
-    {
-      "name": "MapQuest",
-      "type": "url",
-      "url": "https://www.mapquest.com/"
+      "url": "https://geo.osnabrueck.de/osnabrueckin3d/"
     },
     {
       "name": "OpenRailwayMap",
