@@ -4037,6 +4037,11 @@
         "name": "Batch Reverse Geocoding",
         "type": "url",
         "url": "https://www.doogal.co.uk/BatchReverseGeocoding.php"
+      },
+      {
+        "name": "OSM Bellingcat",
+        "type": "url",
+        "url": "https://osm-search.bellingcat.com"
       }],
       "name": "Coordinates",
       "type": "folder"
