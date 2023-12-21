@@ -137,6 +137,11 @@
          "url":"https://www.google.com/advanced_search"
       },
       {
+         "name":"Perplexity",
+         "type":"url",
+         "url":"http://perplexity.ai/"
+      },
+      {
          "name":"DuckDuckGo",
          "type":"url",
          "url":"https://duckduckgo.com/&?kp=1"
@@ -172,11 +177,6 @@
          "name":"ChatGPT",
          "type":"url",
          "url":"http://chat.openai.com/"
-      },
-      {
-         "name":"Perplexity",
-         "type":"url",
-         "url":"http://perplexity.ai/"
       },
       {
          "name":"Chatgot.io",
