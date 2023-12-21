@@ -4087,6 +4087,27 @@
       "type": "folder"
     },
     {
+      "children": [
+      {
+        "name": "Windy.com",
+        "type": "url",
+        "url": "https://windy.com/"
+      },
+      {
+        "name": "Zoom.Earth",
+        "type": "url",
+        "url": "https://zoom.earth"
+      },
+      {
+        "name": "Rain Viewer",
+        "type": "url",
+        "url": "https://www.rainviewer.com/weather-radar-map-live.html"
+      }
+      ],
+      "name": "Weather",
+      "type": "folder"
+    },
+    {
       "name": "Google Maps",
       "type": "url",
       "url": "https://www.google.com/maps/"
@@ -4115,11 +4136,6 @@
       "name": "OpenStreetMap",
       "type": "url",
       "url": "http://www.openstreetmap.org/#map=5/40.614/-100.679"
-    },
-    {
-      "name": "Zoom.Earth",
-      "type": "url",
-      "url": "https://zoom.earth"
     },
     {
       "name": "Google Earth Overlays",
