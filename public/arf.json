@@ -55,7 +55,7 @@
                "name":"Copernicus Browser",
                "type":"url",
                "url":"https://dataspace.copernicus.eu/browser/"
-            },
+            }
          ],
          "name":"Satelite & Drone Imagery ",
          "type":"folder"
