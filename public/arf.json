@@ -153,6 +153,22 @@
 {
    "children":[
       {
+         "name":"Wolfram Alpha",
+         "type":"url",
+         "url":"https://www.wolframalpha.com"
+      },
+      {
+         "name":"Microsoft Mathsolver",
+         "type":"url",
+         "url":"https://mathsolver.microsoft.com/en/algebra-calculator"
+      }
+   ],
+   "name":"Math",
+   "type":"folder"
+},
+{
+   "children":[
+      {
          "name":"ChatGPT",
          "type":"url",
          "url":"http://chat.openai.com/"
@@ -183,7 +199,7 @@
          "url":"nat.dev"
       }
    ],
-   "name":"Chat",
+   "name":"AI Chat",
    "type":"folder"
 }
 ],
