@@ -7108,13 +7108,7 @@
          ],
          "name":"Training",
          "type":"folder"
-      }
-   ],
-   "name":"OSINT Framework",
-   "type":"folder"
-},
-{
-   "children":[
+      },
       {
          "children":[
             {
@@ -7147,6 +7141,6 @@
          "type":"folder"
       }
    ],
-   "name":"AI",
+   "name":"OSINT Framework",
    "type":"folder"
-}
+},
