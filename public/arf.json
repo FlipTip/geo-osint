@@ -6910,4 +6910,43 @@
   }],
   "name": "OSINT Framework",
   "type": "folder"
+},
+
+
+
+{
+  "children": [
+  {
+    "children": [
+    {
+      "name": "ChatGPT",
+      "type": "url",
+      "url": "http://chat.openai.com/"
+    },
+    {
+      "name": "Chatgot.io",
+      "type": "url",
+      "url": "https://chatgot.io/"
+    },
+    {
+      "name": "Perplexity Labs",
+      "type": "url",
+      "url": "https://labs.perplexity.ai"
+    },
+    {
+      "name": "Replicate LLaMa",
+      "type": "url",
+      "url": "https://llama.replicate.dev"
+    },
+    {
+      "name": "nat.dev",
+      "type": "url",
+      "url": "nat.dev"
+    }],
+    "name": "Chat",
+    "type": "folder"
+  }],
+  "name": "AI",
+  "type": "folder"
 }
+
