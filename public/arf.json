@@ -1,212 +1,212 @@
 {
-  "children": [
-  {
-    "children": [
-    {
-      "children": [
+   "children":[
       {
-               "name":"SunCalc",
-               "type":"url",
-               "url":"http://suncalc.net/"
+         "children":[
+            {
+               "children":[
+                  {
+                     "name":"SunCalc",
+                     "type":"url",
+                     "url":"http://suncalc.net/"
+                  },
+                  {
+                     "name":"OSM Bellingcat",
+                     "type":"url",
+                     "url":"https://osm-search.bellingcat.com"
+                  }
+               ],
+               "name":"Geolocation Tools",
+               "type":"folder"
             },
             {
-               "name":"OSM Bellingcat",
+               "children":[
+                  {
+                     "name":"Windy.com",
+                     "type":"url",
+                     "url":"https://windy.com/"
+                  },
+                  {
+                     "name":"Zoom.Earth",
+                     "type":"url",
+                     "url":"https://zoom.earth"
+                  },
+                  {
+                     "name":"Rain Viewer",
+                     "type":"url",
+                     "url":"https://www.rainviewer.com/weather-radar-map-live.html"
+                  },
+                  {
+                     "name":"Wildfires",
+                     "type":"url",
+                     "url":"https://services.zki.dlr.de/fire/#/map?bbox=-120.864,-85.051,219.485,85.051&timerange=2023-12-14T00:00:00.000Z/2023-12-21T00:00:00.000Z&area_ha=0,1000000&avg_dndvi=-2,2&confidence=0,100&layers=BURNTAREA_S3_EFR_P1D,BURNTAREA_MODIS_P1D&overlays=&baselayer=eoc_litemap_tile"
+                  }
+               ],
+               "name":"Weather",
+               "type":"folder"
+            },
+            {
+               "name":"Google Maps",
                "type":"url",
-               "url":"https://osm-search.bellingcat.com"
+               "url":"https://www.google.com/maps/"
+            },
+            {
+               "name":"Bing Maps",
+               "type":"url",
+               "url":"http://www.bing.com/maps/"
+            },
+            {
+               "name":"HERE Maps",
+               "type":"url",
+               "url":"https://maps.here.com/"
+            },
+            {
+               "name":"Qwant Maps (data by MapTiler)",
+               "type":"url",
+               "url":"https://www.qwant.com/maps/"
+            },
+            {
+               "name":"Dual Maps",
+               "type":"url",
+               "url":"http://data.mashedworld.com/dualmaps/map.htm"
+            },
+            {
+               "name":"Instant Google Street View",
+               "type":"url",
+               "url":"http://www.instantstreetview.com/"
+            },
+            {
+               "name":"OpenStreetMap",
+               "type":"url",
+               "url":"http://www.openstreetmap.org/#map=5/40.614/-100.679"
+            },
+            {
+               "name":"Google Earth",
+               "type":"url",
+               "url":"https://www.google.com/earth/"
+            },
+            {
+               "name":"Copernicus Browser",
+               "type":"url",
+               "url":"https://dataspace.copernicus.eu/browser/"
+            },
+            {
+               "name":"OpenStreetCam",
+               "type":"url",
+               "url":"http://openstreetcam.org/"
+            },
+            {
+               "name":"Hivemapper",
+               "type":"url",
+               "url":"https://hivemapper.com/"
+            },
+            {
+               "name":"BaseMap.de",
+               "type":"url",
+               "url":"https://basemap.de/viewer/"
+            },
+            {
+               "name":"geo.osnabrueck.de",
+               "type":"url",
+               "url":"https://geo.osnabrueck.de/osnabrueckin3d/"
+            },
+            {
+               "name":"OpenRailwayMap",
+               "type":"url",
+               "url":"http://www.openrailwaymap.org/"
+            },
+            {
+               "name":"Hiking & Biking Map",
+               "type":"url",
+               "url":"http://hikebikemap.org/"
+            },
+            {
+               "name":"Wayback Imagery",
+               "type":"url",
+               "url":"https://livingatlas.arcgis.com/wayback/"
             }
          ],
-         "name":"Geolocation Tools",
+         "name":"Geolocation Tools / Maps",
          "type":"folder"
       },
       {
          "children":[
             {
-               "name":"Windy.com",
+               "name":"ChatGPT",
                "type":"url",
-               "url":"https://windy.com/"
+               "url":"http://chat.openai.com/"
             },
             {
-               "name":"Zoom.Earth",
+               "name":"Perplexity",
                "type":"url",
-               "url":"https://zoom.earth"
+               "url":"http://perplexity.ai/"
             },
             {
-               "name":"Rain Viewer",
+               "name":"Chatgot.io",
                "type":"url",
-               "url":"https://www.rainviewer.com/weather-radar-map-live.html"
+               "url":"https://chatgot.io/"
             },
             {
-               "name":"Wildfires",
+               "name":"Perplexity Labs",
                "type":"url",
-               "url":"https://services.zki.dlr.de/fire/#/map?bbox=-120.864,-85.051,219.485,85.051&timerange=2023-12-14T00:00:00.000Z/2023-12-21T00:00:00.000Z&area_ha=0,1000000&avg_dndvi=-2,2&confidence=0,100&layers=BURNTAREA_S3_EFR_P1D,BURNTAREA_MODIS_P1D&overlays=&baselayer=eoc_litemap_tile"
+               "url":"https://labs.perplexity.ai"
+            },
+            {
+               "name":"Replicate LLaMa",
+               "type":"url",
+               "url":"https://llama.replicate.dev"
+            },
+            {
+               "name":"nat.dev",
+               "type":"url",
+               "url":"nat.dev"
             }
          ],
-         "name":"Weather",
+         "name":"AI Chats",
          "type":"folder"
       },
-      {
-         "name":"Google Maps",
-         "type":"url",
-         "url":"https://www.google.com/maps/"
-      },
-      {
-         "name":"Bing Maps",
-         "type":"url",
-         "url":"http://www.bing.com/maps/"
-      },
-      {
-         "name":"HERE Maps",
-         "type":"url",
-         "url":"https://maps.here.com/"
-      },
-      {
-         "name":"Qwant Maps (data by MapTiler)",
-         "type":"url",
-         "url":"https://www.qwant.com/maps/"
-      },
-      {
-         "name":"Dual Maps",
-         "type":"url",
-         "url":"http://data.mashedworld.com/dualmaps/map.htm"
-      },
-      {
-         "name":"Instant Google Street View",
-         "type":"url",
-         "url":"http://www.instantstreetview.com/"
-      },
-      {
-         "name":"OpenStreetMap",
-         "type":"url",
-         "url":"http://www.openstreetmap.org/#map=5/40.614/-100.679"
-      },
-      {
-         "name":"Google Earth",
-         "type":"url",
-         "url":"https://www.google.com/earth/"
-      },
-      {
-         "name":"Copernicus Browser",
-         "type":"url",
-         "url":"https://dataspace.copernicus.eu/browser/"
-      },
-      {
-         "name":"OpenStreetCam",
-         "type":"url",
-         "url":"http://openstreetcam.org/"
-      },
-      {
-         "name":"Hivemapper",
-         "type":"url",
-         "url":"https://hivemapper.com/"
-      },
-      {
-         "name":"BaseMap.de",
-         "type":"url",
-         "url":"https://basemap.de/viewer/"
-      },
-      {
-         "name":"geo.osnabrueck.de",
-         "type":"url",
-         "url":"https://geo.osnabrueck.de/osnabrueckin3d/"
-      },
-      {
-         "name":"OpenRailwayMap",
-         "type":"url",
-         "url":"http://www.openrailwaymap.org/"
-      },
-      {
-         "name":"Hiking & Biking Map",
-         "type":"url",
-         "url":"http://hikebikemap.org/"
-      },
-      {
-         "name":"Wayback Imagery",
-         "type":"url",
-         "url":"https://livingatlas.arcgis.com/wayback/"
-      }
-   ],
-   "name":"Geolocation Tools / Maps",
-   "type":"folder"
-},
-{
-   "children":[
-      {
-         "name":"ChatGPT",
-         "type":"url",
-         "url":"http://chat.openai.com/"
-      },
-      {
-         "name":"Perplexity",
-         "type":"url",
-         "url":"http://perplexity.ai/"
-      },
-      {
-         "name":"Chatgot.io",
-         "type":"url",
-         "url":"https://chatgot.io/"
-      },
-      {
-         "name":"Perplexity Labs",
-         "type":"url",
-         "url":"https://labs.perplexity.ai"
-      },
-      {
-         "name":"Replicate LLaMa",
-         "type":"url",
-         "url":"https://llama.replicate.dev"
-      },
-      {
-         "name":"nat.dev",
-         "type":"url",
-         "url":"nat.dev"
-      }
-   ],
-   "name":"AI Chats",
-   "type":"folder"
-},
-{
-   "children":[
       {
          "children":[
             {
-               "name":"Bing Visual Search",
-               "type":"url",
-               "url":"https://www.bing.com/visualsearch"
-            },
-            {
-               "name":"Tiny Eye",
-               "type":"url",
-               "url":"https://tineye.com"
-            },
-            {
-               "name":"facecheck.id",
-               "type":"url",
-               "url":"https://facecheck.id"
+               "children":[
+                  {
+                     "name":"Bing Visual Search",
+                     "type":"url",
+                     "url":"https://www.bing.com/visualsearch"
+                  },
+                  {
+                     "name":"Tiny Eye",
+                     "type":"url",
+                     "url":"https://tineye.com"
+                  },
+                  {
+                     "name":"facecheck.id",
+                     "type":"url",
+                     "url":"https://facecheck.id"
+                  }
+               ],
+               {
+                  "name":"Google",
+                  "type":"url",
+                  "url":"https://www.google.com/advanced_search"
+               },
+               {
+                  "name":"Carrot2",
+                  "type":"url",
+                  "url":"https://search.carrot2.org/#/search/web"
+               },
+               {
+                  "name":"facecheck.id",
+                  "type":"url",
+                  "url":"https://facecheck.id"
+               },
+               "name":"Image Search",
+               "type":"folder"
             }
-          ],
-          {
-             "name":"Google",
-             "type":"url",
-             "url":"https://www.google.com/advanced_search"
-          },
-          {
-             "name":"Carrot2",
-             "type":"url",
-             "url":"https://search.carrot2.org/#/search/web"
-          },
-          {
-             "name":"facecheck.id",
-             "type":"url",
-             "url":"https://facecheck.id"
-          },
-         "name":"Image Search",
+         ],
+         "name":"Search",
          "type":"folder"
       }
    ],
-   "name":"Search",
+   "name":"OSINT Framework",
    "type":"folder"
-}
-],
-"name":"OSINT Framework",
-"type":"folder"
 }
