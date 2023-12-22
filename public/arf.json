@@ -210,6 +210,22 @@
 {
    "children":[
       {
+         "children":[
+            {
+               "name":"DANs GitHub List",
+               "type":"url",
+               "url":"https://github.com/0xk1h0/ChatGPT_DAN"
+            },
+            {
+               "name":"dolphin-mixtral-8x7b (HuggingFace)",
+               "type":"url",
+               "url":"https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b"
+            }
+         ],
+         "name":"Uncensored AI",
+         "type":"folder"
+      },
+      {
          "name":"ChatGPT",
          "type":"url",
          "url":"http://chat.openai.com/"
@@ -260,6 +276,6 @@
    "type":"folder"
 }
 ],
-"name":"OSINT Framework",
+"name":"Tools",
 "type":"folder"
 }
