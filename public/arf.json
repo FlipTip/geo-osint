@@ -153,6 +153,22 @@
          "type":"folder"
       },
       {
+         "children":[
+            {
+               "name":"Wolfram Alpha",
+               "type":"url",
+               "url":"https://www.wolframalpha.com"
+            },
+            {
+               "name":"Microsoft Mathsolver",
+               "type":"url",
+               "url":"https://mathsolver.microsoft.com/en/algebra-calculator"
+            }
+         ],
+         "name":"Math",
+         "type":"folder"
+      },
+      {
          "name":"Google",
          "type":"url",
          "url":"https://www.google.com/advanced_search"
@@ -179,22 +195,6 @@
       }
    ],
    "name":"Search",
-   "type":"folder"
-},
-{
-   "children":[
-      {
-         "name":"Wolfram Alpha",
-         "type":"url",
-         "url":"https://www.wolframalpha.com"
-      },
-      {
-         "name":"Microsoft Mathsolver",
-         "type":"url",
-         "url":"https://mathsolver.microsoft.com/en/algebra-calculator"
-      }
-   ],
-   "name":"Math",
    "type":"folder"
 },
 {
