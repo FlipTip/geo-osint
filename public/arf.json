@@ -147,6 +147,11 @@
                "name":"Google Images",
                "type":"url",
                "url":"https://images.google.com"
+            },
+            {
+               "name":"FaceCheck ID",
+               "type":"url",
+               "url":"https://facecheck.id"
             }
          ],
          "name":"Image Search",
