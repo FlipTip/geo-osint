@@ -13,6 +13,11 @@
                "name":"OSM Bellingcat",
                "type":"url",
                "url":"https://osm-search.bellingcat.com"
+            },
+            {
+               "name":"OverPass Turbo",
+               "type":"url",
+               "url":"https://overpass-turbo.eu"
             }
          ],
          "name":"Geolocation Tools",
