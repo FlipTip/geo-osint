@@ -68,7 +68,8 @@
       {
          "name":"Google Maps",
          "type":"url",
-         "url":"https://www.google.com/maps/"
+         "url":"https://www.google.com/maps/",
+         "api":"https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}"
       },
       {
          "name":"Bing Maps",
@@ -153,7 +154,8 @@
             {
                "name":"Bing Image search",
                "type":"url",
-               "url":"https://www.bing.com/visualsearch"
+               "url":"https://www.bing.com/visualsearch",
+               "api":"https://www.bing.com/images/search?q=imgurl:{url}"
             },
             {
                "name":"FaceCheck ID",
@@ -188,12 +190,14 @@
       {
          "name":"Google",
          "type":"url",
-         "url":"https://www.google.com/advanced_search"
+         "url":"https://www.google.com/advanced_search",
+         "api":"https://www.google.com/search?q=%s"
       },
       {
          "name":"Perplexity",
          "type":"url",
-         "url":"http://perplexity.ai/"
+         "url":"http://perplexity.ai/",
+         "api":"https://www.perplexity.ai/search?q=%s&copilot=false"
       },
       {
          "name":"DuckDuckGo",
@@ -234,7 +238,7 @@
             {
               "name": "dolphin-mixtral-8x7b (HuggingFace)",
               "type": "url",
-              "url": "https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b"
+              "url": "https://huggingface.co/cognitivecomputations/dolphin-2.6-mixtral-8x7b"
             }
           ]
         },
@@ -298,7 +302,8 @@
       {
          "name":"EtherPad",
          "type":"url",
-         "url":"https://pentapad.c3d2.de"
+         "url":"https://pentapad.c3d2.de",
+         "api":"https://pentapad.c3d2.de/p/%s"
       }
    ],
    "name":"Collab",
