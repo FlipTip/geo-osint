@@ -208,51 +208,57 @@
    "type":"folder"
 },
 {
-   "children":[
-      {
-         "children":[
+  "name": "AI",
+  "type": "folder",
+  "children": [
+    {
+      "name": "AI Chat",
+      "type": "folder",
+      "children": [
+                {
+          "name": "ChatGPT",
+          "type": "url",
+          "url": "http://chat.openai.com/"
+        },
+        {
+          "name": "Chatgot.io",
+          "type": "url",
+          "url": "https://chatgot.io/"
+        },
+        {
+          "name": "Perplexity Labs",
+          "type": "url",
+          "url": "https://labs.perplexity.ai"
+        },
+        {
+          "name": "Replicate LLaMa",
+          "type": "url",
+          "url": "https://llama.replicate.dev"
+        },
+        {
+          "name": "nat.dev",
+          "type": "url",
+          "url": "https://nat.dev"
+        },
+        {
+          "name": "Uncensored AI",
+          "type": "folder",
+          "children": [
             {
-               "name":"DANs GitHub List",
-               "type":"url",
-               "url":"https://github.com/0xk1h0/ChatGPT_DAN"
+              "name": "DANs GitHub List",
+              "type": "url",
+              "url": "https://github.com/0xk1h0/ChatGPT_DAN"
             },
             {
-               "name":"dolphin-mixtral-8x7b (HuggingFace)",
-               "type":"url",
-               "url":"https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b"
+              "name": "dolphin-mixtral-8x7b (HuggingFace)",
+              "type": "url",
+              "url": "https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b"
             }
-         ],
-         "name":"Uncensored AI",
-         "type":"folder"
-      },
-      {
-         "name":"ChatGPT",
-         "type":"url",
-         "url":"http://chat.openai.com/"
-      },
-      {
-         "name":"Chatgot.io",
-         "type":"url",
-         "url":"https://chatgot.io/"
-      },
-      {
-         "name":"Perplexity Labs",
-         "type":"url",
-         "url":"https://labs.perplexity.ai"
-      },
-      {
-         "name":"Replicate LLaMa",
-         "type":"url",
-         "url":"https://llama.replicate.dev"
-      },
-      {
-         "name":"nat.dev",
-         "type":"url",
-         "url":"nat.dev"
-      }
-   ],
-   "name":"AI Chat",
-   "type":"folder"
+          ]
+        }
+      ]
+    }
+  ]
 },
 {
    "children":[
