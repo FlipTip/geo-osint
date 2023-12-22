@@ -141,12 +141,14 @@
             {
                "name":"Google Images",
                "type":"url",
-               "url":"https://www.google.com/imghp"
+               "url":"https://www.google.com/imghp",
+               "api":"https://lens.google.com/uploadbyurl?url={url}"
             },
             {
                "name":"TinEye",
                "type":"url",
-               "url":"https://tineye.com"
+               "url":"https://tineye.com",
+               "api":"https://tineye.com/search/?pluginver=firefox-2.0.4&url={url}"
             },
             {
                "name":"Bing Image search",
