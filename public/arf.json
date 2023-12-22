@@ -150,6 +150,11 @@
          "name":"Carrot2",
          "type":"url",
          "url":"https://search.carrot2.org/#/search/web"
+      },
+      {
+         "name":"SearX (envs.net)",
+         "type":"url",
+         "url":"https://searx.envs.net/searxng/"
       }
    ],
    "name":"Search",
@@ -200,6 +205,27 @@
       }
    ],
    "name":"AI Chat",
+   "type":"folder"
+},
+{
+   "children":[
+      {
+         "name":"HedgeDoc",
+         "type":"url",
+         "url":"https://hedgedoc.c3d2.de"
+      },
+      {
+         "name":"CryptPad",
+         "type":"url",
+         "url":"https://cryptpad.piratenpartei.de/"
+      },
+      {
+         "name":"EtherPad",
+         "type":"url",
+         "url":"https://pentapad.c3d2.de"
+      }
+   ],
+   "name":"Collab",
    "type":"folder"
 }
 ],
