@@ -131,6 +131,27 @@
 },
 {
    "children":[
+        {
+         "children":[
+            {
+               "name":"Bing Image search",
+               "type":"url",
+               "url":"https://www.bing.com/visualsearch"
+            },
+            {
+               "name":"TinEye",
+               "type":"url",
+               "url":"https://tineye.com"
+            },
+            {
+               "name":"Google Images",
+               "type":"url",
+               "url":"https://images.google.com"
+            }
+         ],
+         "name":"Image Search",
+         "type":"folder"
+      },
       {
          "name":"Google",
          "type":"url",
