@@ -102,14 +102,14 @@
          "url":"http://www.openstreetmap.org/#map=5/40.614/-100.679"
       },
       {
-         "name":"OpenStreetCam",
+         "name":"KartaView",
          "type":"url",
-         "url":"http://openstreetcam.org/"
+         "url":"https://kartaview.org/map/"
       },
       {
-         "name":"Hivemapper",
+         "name":"Mapillary",
          "type":"url",
-         "url":"https://hivemapper.com/"
+         "url":"https://www.mapillary.com/app/"
       },
       {
          "name":"BaseMap.de",
