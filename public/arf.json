@@ -215,7 +215,23 @@
       "name": "AI Chat",
       "type": "folder",
       "children": [
-                {
+        {
+          "name": "Uncensored AI",
+          "type": "folder",
+          "children": [
+            {
+              "name": "DANs GitHub List",
+              "type": "url",
+              "url": "https://github.com/0xk1h0/ChatGPT_DAN"
+            },
+            {
+              "name": "dolphin-mixtral-8x7b (HuggingFace)",
+              "type": "url",
+              "url": "https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b"
+            }
+          ]
+        },
+        {
           "name": "ChatGPT",
           "type": "url",
           "url": "http://chat.openai.com/"
@@ -239,22 +255,22 @@
           "name": "nat.dev",
           "type": "url",
           "url": "https://nat.dev"
+        }
+      ]
+    },
+    {
+      "name": "AI Images",
+      "type": "folder",
+      "children": [
+        {
+          "name": "AI Image Detector",
+          "type": "url",
+          "url": "https://app.illuminarty.ai"
         },
         {
-          "name": "Uncensored AI",
-          "type": "folder",
-          "children": [
-            {
-              "name": "DANs GitHub List",
-              "type": "url",
-              "url": "https://github.com/0xk1h0/ChatGPT_DAN"
-            },
-            {
-              "name": "dolphin-mixtral-8x7b (HuggingFace)",
-              "type": "url",
-              "url": "https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b"
-            }
-          ]
+          "name": "SDXL",
+          "type": "url",
+          "url": "https://google-sdxl.hf.space"
         }
       ]
     }
