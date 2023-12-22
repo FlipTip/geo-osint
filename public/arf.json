@@ -134,9 +134,9 @@
         {
          "children":[
             {
-               "name":"Bing Image search",
+               "name":"Google Images",
                "type":"url",
-               "url":"https://www.bing.com/visualsearch"
+               "url":"https://www.google.com/imghp"
             },
             {
                "name":"TinEye",
@@ -144,14 +144,19 @@
                "url":"https://tineye.com"
             },
             {
-               "name":"Google Images",
+               "name":"Bing Image search",
                "type":"url",
-               "url":"https://images.google.com"
+               "url":"https://www.bing.com/visualsearch"
             },
             {
                "name":"FaceCheck ID",
                "type":"url",
                "url":"https://facecheck.id"
+            },
+            {
+               "name":"DeepFake Video Detector",
+               "type":"url",
+               "url":"https://scanner.deepware.ai/"
             }
          ],
          "name":"Image Search",
