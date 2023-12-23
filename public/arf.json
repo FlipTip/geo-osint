@@ -1,315 +1,349 @@
 {
-  "children": [
-  {
+   "children": [
+   {
+     "children": [
+     {
+       "children": [
+       {
+                "name":"SunCalc",
+                "type":"url",
+                "url":"http://suncalc.net/"
+             },
+             {
+                "name":"OSM Bellingcat",
+                "type":"url",
+                "url":"https://osm-search.bellingcat.com"
+             },
+             {
+                "name":"OverPass Turbo",
+                "type":"url",
+                "url":"https://overpass-turbo.eu"
+             }
+          ],
+          "name":"Geolocation Tools",
+          "type":"folder"
+       },
+       {
+          "children":[
+             {
+                "name":"Windy.com",
+                "type":"url",
+                "url":"https://windy.com/"
+             },
+             {
+                "name":"Zoom.Earth",
+                "type":"url",
+                "url":"https://zoom.earth"
+             },
+             {
+                "name":"Rain Viewer",
+                "type":"url",
+                "url":"https://www.rainviewer.com/weather-radar-map-live.html"
+             }
+          ],
+          "name":"Weather",
+          "type":"folder"
+       },
+       {
+          "children":[
+             {
+                "name":"Google Earth",
+                "type":"url",
+                "url":"https://www.google.com/earth/"
+             },
+             {
+                "name":"geo.osnabrueck.de",
+                "type":"url",
+                "url":"https://geo.osnabrueck.de/osnabrueckin3d/"
+             },
+             {
+                "name":"Copernicus Browser",
+                "type":"url",
+                "url":"https://dataspace.copernicus.eu/browser/"
+             }
+          ],
+          "name":"Satelite & Drone Imagery ",
+          "type":"folder"
+       },
+       {
+          "name":"Google Maps",
+          "type":"url",
+          "url":"https://www.google.com/maps/",
+          "api":"https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}"
+       },
+       {
+          "name":"Bing Maps",
+          "type":"url",
+          "url":"http://www.bing.com/maps/"
+       },
+       {
+          "name":"HERE Maps",
+          "type":"url",
+          "url":"https://maps.here.com/"
+       },
+       {
+          "name":"Qwant Maps (data by MapTiler)",
+          "type":"url",
+          "url":"https://www.qwant.com/maps/"
+       },
+       {
+          "name":"Dual Maps",
+          "type":"url",
+          "url":"http://data.mashedworld.com/dualmaps/map.htm"
+       },
+       {
+          "name":"Instant Google Street View",
+          "type":"url",
+          "url":"http://www.instantstreetview.com/"
+       },
+       {
+          "name":"OpenStreetMap",
+          "type":"url",
+          "url":"http://www.openstreetmap.org/#map=5/40.614/-100.679"
+       },
+       {
+          "name":"KartaView",
+          "type":"url",
+          "url":"https://kartaview.org/map/"
+       },
+       {
+          "name":"Mapillary",
+          "type":"url",
+          "url":"https://www.mapillary.com/app/"
+       },
+       {
+          "name":"BaseMap.de",
+          "type":"url",
+          "url":"https://basemap.de/viewer/"
+       },
+       {
+          "name":"OpenRailwayMap",
+          "type":"url",
+          "url":"http://www.openrailwaymap.org/"
+       },
+       {
+          "name":"Hiking & Biking Map",
+          "type":"url",
+          "url":"http://hikebikemap.org/"
+       },
+       {
+          "name":"Wayback Imagery",
+          "type":"url",
+          "url":"https://livingatlas.arcgis.com/wayback/"
+       }
+    ],
+    "name":"Geolocation Tools / Maps",
+    "type":"folder"
+ },
+ {
+    "children":[
+         {
+          "children":[
+             {
+                "name":"Google Images",
+                "type":"url",
+                "url":"https://www.google.com/imghp",
+                "api":"https://lens.google.com/uploadbyurl?url={url}"
+             },
+             {
+                "name":"TinEye",
+                "type":"url",
+                "url":"https://tineye.com",
+                "api":"https://tineye.com/search/?pluginver=firefox-2.0.4&url={url}"
+             },
+             {
+                "name":"Bing Image search",
+                "type":"url",
+                "url":"https://www.bing.com/visualsearch",
+                "api":"https://www.bing.com/images/search?q=imgurl:{url}"
+             },
+             {
+                "name":"FaceCheck ID",
+                "type":"url",
+                "url":"https://facecheck.id"
+             },
+             {
+                "name":"DeepFake Video Detector",
+                "type":"url",
+                "url":"https://scanner.deepware.ai/"
+             }
+          ],
+          "name":"Image Search",
+          "type":"folder"
+       },
+       {
+          "children":[
+             {
+                "name":"Wolfram Alpha",
+                "type":"url",
+                "url":"https://www.wolframalpha.com"
+             },
+             {
+                "name":"Microsoft Mathsolver",
+                "type":"url",
+                "url":"https://mathsolver.microsoft.com/en/algebra-calculator"
+             }
+          ],
+          "name":"Math",
+          "type":"folder"
+       },
+       {
+          "children":[
+             {
+                "name":"Exploit-DB GHD",
+                "type":"url",
+                "url":"https://www.exploit-db.com/google-hacking-database"
+             },
+             {
+                "name":"Google Search Operators (DOC)",
+                "type":"url",
+                "url":"https://gist.github.com/FlipTip/0e64fae062c8730851db9ebb945b81ef"
+             },
+             {
+                "name":"Google Advanced search",
+                "type":"url",
+                "url":"https://www.google.com/advanced_search",
+                "api":"https://www.google.com/search?q=%s"
+             }
+          ],
+          "name":"Google Advanced search",
+          "type":"folder"
+       },
+       {
+          "name":"Google",
+          "type":"url",
+          "url":"https://www.google.com/search",
+          "api":"https://www.google.com/search?q=%s"
+       },
+       {
+          "name":"Perplexity",
+          "type":"url",
+          "url":"http://perplexity.ai/",
+          "api":"https://www.perplexity.ai/search?q=%s&copilot=false"
+       },
+       {
+          "name":"DuckDuckGo",
+          "type":"url",
+          "url":"https://duckduckgo.com/&?kp=1"
+       },
+       {
+          "name":"Carrot2",
+          "type":"url",
+          "url":"https://search.carrot2.org/#/search/web"
+       },
+       {
+          "name":"SearX (envs.net)",
+          "type":"url",
+          "url":"https://searx.envs.net/searxng/"
+       }
+    ],
+    "name":"Search",
+    "type":"folder"
+ },
+ {
+   "name": "AI",
+   "type": "folder",
+   "children": [
+     {
+       "name": "AI Chat",
+       "type": "folder",
+       "children": [
+         {
+           "name": "Uncensored AI",
+           "type": "folder",
+           "children": [
+             {
+               "name": "DANs GitHub List",
+               "type": "url",
+               "url": "https://github.com/0xk1h0/ChatGPT_DAN"
+             },
+             {
+               "name": "dolphin-mixtral-8x7b (HuggingFace)",
+               "type": "url",
+               "url": "https://huggingface.co/cognitivecomputations/dolphin-2.6-mixtral-8x7b"
+             }
+           ]
+         },
+         {
+           "name": "ChatGPT",
+           "type": "url",
+           "url": "http://chat.openai.com/"
+         },
+         {
+           "name": "Chatgot.io",
+           "type": "url",
+           "url": "https://chatgot.io/"
+         },
+         {
+           "name": "Perplexity Labs",
+           "type": "url",
+           "url": "https://labs.perplexity.ai"
+         },
+         {
+           "name": "Replicate LLaMa",
+           "type": "url",
+           "url": "https://llama.replicate.dev"
+         },
+         {
+           "name": "nat.dev",
+           "type": "url",
+           "url": "https://nat.dev"
+         }
+       ]
+     },
+     {
+       "name": "AI Images",
+       "type": "folder",
+       "children": [
+         {
+           "name": "AI Image Detector",
+           "type": "url",
+           "url": "https://app.illuminarty.ai"
+         },
+         {
+           "name": "SDXL",
+           "type": "url",
+           "url": "https://google-sdxl.hf.space"
+         }
+       ]
+     }
+   ]
+ },
+ {
+    "children":[
+       {
+          "name":"HedgeDoc",
+          "type":"url",
+          "url":"https://hedgedoc.c3d2.de"
+       },
+       {
+          "name":"CryptPad",
+          "type":"url",
+          "url":"https://cryptpad.piratenpartei.de/"
+       },
+       {
+          "name":"EtherPad",
+          "type":"url",
+          "url":"https://pentapad.c3d2.de",
+          "api":"https://pentapad.c3d2.de/p/%s"
+       }
+    ],
+    "name":"Collab",
+    "type":"folder"
+ },
+ {
     "children": [
     {
-      "children": [
-      {
-               "name":"SunCalc",
-               "type":"url",
-               "url":"http://suncalc.net/"
-            },
-            {
-               "name":"OSM Bellingcat",
-               "type":"url",
-               "url":"https://osm-search.bellingcat.com"
-            },
-            {
-               "name":"OverPass Turbo",
-               "type":"url",
-               "url":"https://overpass-turbo.eu"
-            }
-         ],
-         "name":"Geolocation Tools",
-         "type":"folder"
-      },
-      {
-         "children":[
-            {
-               "name":"Windy.com",
-               "type":"url",
-               "url":"https://windy.com/"
-            },
-            {
-               "name":"Zoom.Earth",
-               "type":"url",
-               "url":"https://zoom.earth"
-            },
-            {
-               "name":"Rain Viewer",
-               "type":"url",
-               "url":"https://www.rainviewer.com/weather-radar-map-live.html"
-            }
-         ],
-         "name":"Weather",
-         "type":"folder"
-      },
-      {
-         "children":[
-            {
-               "name":"Google Earth",
-               "type":"url",
-               "url":"https://www.google.com/earth/"
-            },
-            {
-               "name":"geo.osnabrueck.de",
-               "type":"url",
-               "url":"https://geo.osnabrueck.de/osnabrueckin3d/"
-            },
-            {
-               "name":"Copernicus Browser",
-               "type":"url",
-               "url":"https://dataspace.copernicus.eu/browser/"
-            }
-         ],
-         "name":"Satelite & Drone Imagery ",
-         "type":"folder"
-      },
-      {
-         "name":"Google Maps",
-         "type":"url",
-         "url":"https://www.google.com/maps/",
-         "api":"https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}"
-      },
-      {
-         "name":"Bing Maps",
-         "type":"url",
-         "url":"http://www.bing.com/maps/"
-      },
-      {
-         "name":"HERE Maps",
-         "type":"url",
-         "url":"https://maps.here.com/"
-      },
-      {
-         "name":"Qwant Maps (data by MapTiler)",
-         "type":"url",
-         "url":"https://www.qwant.com/maps/"
-      },
-      {
-         "name":"Dual Maps",
-         "type":"url",
-         "url":"http://data.mashedworld.com/dualmaps/map.htm"
-      },
-      {
-         "name":"Instant Google Street View",
-         "type":"url",
-         "url":"http://www.instantstreetview.com/"
-      },
-      {
-         "name":"OpenStreetMap",
-         "type":"url",
-         "url":"http://www.openstreetmap.org/#map=5/40.614/-100.679"
-      },
-      {
-         "name":"KartaView",
-         "type":"url",
-         "url":"https://kartaview.org/map/"
-      },
-      {
-         "name":"Mapillary",
-         "type":"url",
-         "url":"https://www.mapillary.com/app/"
-      },
-      {
-         "name":"BaseMap.de",
-         "type":"url",
-         "url":"https://basemap.de/viewer/"
-      },
-      {
-         "name":"OpenRailwayMap",
-         "type":"url",
-         "url":"http://www.openrailwaymap.org/"
-      },
-      {
-         "name":"Hiking & Biking Map",
-         "type":"url",
-         "url":"http://hikebikemap.org/"
-      },
-      {
-         "name":"Wayback Imagery",
-         "type":"url",
-         "url":"https://livingatlas.arcgis.com/wayback/"
-      }
-   ],
-   "name":"Geolocation Tools / Maps",
-   "type":"folder"
-},
-{
-   "children":[
-        {
-         "children":[
-            {
-               "name":"Google Images",
-               "type":"url",
-               "url":"https://www.google.com/imghp",
-               "api":"https://lens.google.com/uploadbyurl?url={url}"
-            },
-            {
-               "name":"TinEye",
-               "type":"url",
-               "url":"https://tineye.com",
-               "api":"https://tineye.com/search/?pluginver=firefox-2.0.4&url={url}"
-            },
-            {
-               "name":"Bing Image search",
-               "type":"url",
-               "url":"https://www.bing.com/visualsearch",
-               "api":"https://www.bing.com/images/search?q=imgurl:{url}"
-            },
-            {
-               "name":"FaceCheck ID",
-               "type":"url",
-               "url":"https://facecheck.id"
-            },
-            {
-               "name":"DeepFake Video Detector",
-               "type":"url",
-               "url":"https://scanner.deepware.ai/"
-            }
-         ],
-         "name":"Image Search",
-         "type":"folder"
-      },
-      {
-         "children":[
-            {
-               "name":"Wolfram Alpha",
-               "type":"url",
-               "url":"https://www.wolframalpha.com"
-            },
-            {
-               "name":"Microsoft Mathsolver",
-               "type":"url",
-               "url":"https://mathsolver.microsoft.com/en/algebra-calculator"
-            }
-         ],
-         "name":"Math",
-         "type":"folder"
-      },
-      {
-         "name":"Google",
-         "type":"url",
-         "url":"https://www.google.com/advanced_search",
-         "api":"https://www.google.com/search?q=%s"
-      },
-      {
-         "name":"Perplexity",
-         "type":"url",
-         "url":"http://perplexity.ai/",
-         "api":"https://www.perplexity.ai/search?q=%s&copilot=false"
-      },
-      {
-         "name":"DuckDuckGo",
-         "type":"url",
-         "url":"https://duckduckgo.com/&?kp=1"
-      },
-      {
-         "name":"Carrot2",
-         "type":"url",
-         "url":"https://search.carrot2.org/#/search/web"
-      },
-      {
-         "name":"SearX (envs.net)",
-         "type":"url",
-         "url":"https://searx.envs.net/searxng/"
-      }
-   ],
-   "name":"Search",
-   "type":"folder"
-},
-{
-  "name": "AI",
-  "type": "folder",
-  "children": [
-    {
-      "name": "AI Chat",
-      "type": "folder",
-      "children": [
-        {
-          "name": "Uncensored AI",
-          "type": "folder",
-          "children": [
-            {
-              "name": "DANs GitHub List",
-              "type": "url",
-              "url": "https://github.com/0xk1h0/ChatGPT_DAN"
-            },
-            {
-              "name": "dolphin-mixtral-8x7b (HuggingFace)",
-              "type": "url",
-              "url": "https://huggingface.co/cognitivecomputations/dolphin-2.6-mixtral-8x7b"
-            }
-          ]
-        },
-        {
-          "name": "ChatGPT",
-          "type": "url",
-          "url": "http://chat.openai.com/"
-        },
-        {
-          "name": "Chatgot.io",
-          "type": "url",
-          "url": "https://chatgot.io/"
-        },
-        {
-          "name": "Perplexity Labs",
-          "type": "url",
-          "url": "https://labs.perplexity.ai"
-        },
-        {
-          "name": "Replicate LLaMa",
-          "type": "url",
-          "url": "https://llama.replicate.dev"
-        },
-        {
-          "name": "nat.dev",
-          "type": "url",
-          "url": "https://nat.dev"
-        }
-      ]
-    },
-    {
-      "name": "AI Images",
-      "type": "folder",
-      "children": [
-        {
-          "name": "AI Image Detector",
-          "type": "url",
-          "url": "https://app.illuminarty.ai"
-        },
-        {
-          "name": "SDXL",
-          "type": "url",
-          "url": "https://google-sdxl.hf.space"
-        }
-      ]
+             "name":"ACSM Converter",
+             "type":"url",
+             "url":"https://www.acsmconverter.com"
+          }
+       ],
+       "name":"Tools",
+       "type":"folder"
     }
-  ]
-},
-{
-   "children":[
-      {
-         "name":"HedgeDoc",
-         "type":"url",
-         "url":"https://hedgedoc.c3d2.de"
-      },
-      {
-         "name":"CryptPad",
-         "type":"url",
-         "url":"https://cryptpad.piratenpartei.de/"
-      },
-      {
-         "name":"EtherPad",
-         "type":"url",
-         "url":"https://pentapad.c3d2.de",
-         "api":"https://pentapad.c3d2.de/p/%s"
-      }
-   ],
-   "name":"Collab",
-   "type":"folder"
-}
-],
-"name":"Tools",
-"type":"folder"
-}
+ ],
+ "name":"Tools",
+ "type":"folder"
+ }
+ 
